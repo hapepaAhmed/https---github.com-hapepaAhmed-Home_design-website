@@ -1,0 +1,121 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+font-family: 'Inter', sans-serif; ;
+}
+#sign-up,#s-pr,#Learn-More,footer,#Subscribe{
+    background-color: rgba(31, 31, 31, 1);
+    color: rgba(255, 255, 255, 1);
+}
+.container{
+    margin-bottom:70px ;
+}
+p,.num-head{
+    color: rgba(84, 84, 84, 1);
+}
+h2{
+    color:rgba(31, 31, 31, 1) ;
+}
+.ar-head{
+    font-size: 4rem;
+}
+.ar-parahgrah{
+  line-height:6vh;
+}
+#s-pr,#Learn-More,#Subscribe{
+    width:170px;
+    height: 86px;
+    cursor: pointer;
+}
+.num-head{
+    font-size: 3rem;
+}
+.accordion-button::after {
+    display: none; 
+}
+.accordion-header .accordion-button:focus {
+    box-shadow: none;
+    background-color: #fff;
+    outline: none;
+    border: 0;
+    color: rgba(31, 31, 31, 1) ;
+}
+.fa-check-circle{
+  font-size: 60px;
+}
+.fa-check-circle,.icon,.ic,.ico{
+    width: 60px;
+    height: 60px;
+}
+.ico{
+ color: rgba(31, 31, 31, 1) ;
+ background-color: rgba(241, 241, 241, 1);
+}
+.ic{
+  background-color: rgb(64, 63, 63);    
+}   
+.ic,.icon{ color: #fff;} 
+.ic,.icon ,.ico{
+    text-align: center;
+    font-size:35px;
+    padding-top:15px;
+}
+.icon{
+    background-color: rgba(31, 31, 31, 1) ;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.line{
+    margin-left:30px ;
+    width: 2px;
+    height: 70px;
+    background-color:rgb(117, 117, 117) ;
+}
+.masked{
+     background-image: url("../images/Mask\ group\ \(1\).png");
+     background-repeat: no-repeat;
+}
+.masked{
+    width: 100%;
+}
+.final-head{
+    margin-left: 14vw;
+    font-size: large;
+}
+.first{
+ margin-left: -190px;
+}
+.second{
+    margin-left: 2vw;
+}
+.parent{
+    position: relative;
+}
+.cuted-imag,.square,.fa-long-arrow-alt-down{
+    position: absolute;
+}
+.cuted-imag{
+    z-index: 18;
+    margin-top:40px ;
+    margin-left:20px ;
+}
+.square{
+  z-index: 12;
+  width: 10vw;
+  height: 18vh;
+  border:4px solid black;    
+}
+.fa-long-arrow-alt-down{
+    z-index: 22;
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 30px;
+    margin-left:38rem; 
+    margin-top: 22rem;
+
+}
